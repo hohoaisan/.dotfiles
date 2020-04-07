@@ -1,0 +1,24 @@
+[
+  {
+    "name": "zsh",
+    "dependencies": {
+      "program": [
+        "zsh",
+        "oh-my-zsh"
+      ],
+      "files": [
+        {"source":"~/.oh-my-zsh/themes/agnoster.zsh-theme","description":"Custom agnoster theme for zsh"},
+        {"source":"~/.zshrc","description":"Custom setting for zsh"}
+      ]
+    }
+  },
+  {
+    "name": "bash",
+    "dependencies": {
+      "program": [],
+      "files": [
+        {"source":"~/.bashrc","description":"Bash with zsh as default and nodejs dev"}
+      ]
+    }
+  }
+]
